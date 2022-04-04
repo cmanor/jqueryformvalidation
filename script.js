@@ -1,3 +1,5 @@
+$(document).ready(function()
+{
 $('#submit').on('click', function()
 {
     let nam = $("#name");
@@ -23,4 +25,4 @@ $('#submit').on('click', function()
         $("#form").remove();
         $("h2").html("Thanks for your feedback!");
         }
-});
+})});
